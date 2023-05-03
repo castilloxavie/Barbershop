@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactos</title>
+    <link rel="stylesheet" href="estilos/reset.css">
+    <link rel="stylesheet" href="estilos/style_contactos.css">
+</head>
+<body>
+    <header>
+        <div class="caja_1">
+            <h1><img src="./imagenes/logo_2.png"></h1>
+        <nav>
+            <ul>
+                <li ><a href="index.html" class="resalto_etiquetas_navegacion">Home</a></li>
+                <li ><a href="productos.html" class="resalto_etiquetas_navegacion">Productos</a></li>
+                <li ><a href="contacto.html" class="resalto_etiquetas_navegacion">Contatos</a></li>
+            </ul>
+        </nav>
+        </div>
+
+    </header>
+
+    <main>
+        <form>
+            <label for="nombreApellidos">Nombre y Apellidos</label>
+            <input type="text" id="nombreApellidos" class="input_padron" placeholder="escriba su nombre completo">
+
+            <label for="correoElectronico">Email</label>
+            <input type="text" id="correoElectronico" class="input_padron" placeholder="escriba correoelectronico o email">
+
+            <label for="tefono">Telefono</label>
+            <input type="text" id="tefono" class="input_padron" placeholder=" Escriba su Telefono">
+
+            <label for="mensaje">Mensaje</label>
+            <textarea cols="70" rows="10" class="input_padron" id="mensaje_texto_grande"></textarea>
+
+            <div>
+                <p>Como le gustaria que lo contactemos?</p>
+
+                <label for="radio_email"><input type="radio" value="email" name="contacto" id="radio_email">Email</label>
+                <label for="radio_telefono"><input type="radio" value="email" name="contacto" id="radio_telefono">Telefono</label>
+                <label for="radio_whatsapp"><input type="radio" value="email" name="contacto" id="radio_whatsapp">Whatsapp</label>
+                
+            </div>
+            
+            <label for="chequeo" class="checkbox"> <input type="checkbox" name="" id="chequeo">
+            Le gustaria resivir novedades de la barberia xCastillo-Style</label>
+
+            <input type="submit" value="Enviar formulario" class="boton_enviar_formulario">
+        </form>
+    </main>
+
+
+
+
+    <footer>
+        <img src="./imagenes/logo-blanco.jpg" class="iamgen_footer">
+        <p class=" Copyrigth">© Copyrigth Barberia xCastillo-Style -2020</p>
+    </footer>
+</body>
+</html>
