@@ -118,7 +118,7 @@ form{
     margin: 40px 0;
 }
 
-form label, form p{
+form label, form legend{
     display: block;
     font-size: 20px;
     margin: 10px;
@@ -127,21 +127,59 @@ form label, form p{
 
 .input_padron{
     display: block;
-    margin:0 20px ;
+    margin:0 10px ;
     padding: 10px 25px;
     width: 50%;
 }
 
-.boton_enviar_formulario{
-    display: block;
-    margin: 20px ;
-    padding: 10px 25px;
-    width: 50%;
-}
 .checkbox{
     margin: 20px 0;
     padding: 10px;
 }
 
+.seleccinar_opcion{
+    display: block;
+    margin: 0 10px;
+    padding: 10px;
+
+}
+
+.boton_enviar_formulario{
+    display: block;
+    margin: 20px ;
+    padding: 15px ;
+    width: 40%;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: rgb(36, 33, 33);
+    border: none;
+    border-radius: 15px;
+    transition: 2s all;
+    cursor: pointer;
+
+}
+
+.boton_enviar_formulario:hover{
+    background: rgb(231, 206, 206);
+    transform: scale(1.20) rotate(5deg);
+     
+
+}
+
+table{
+    margin: 60px 60px;
+    
+}
+thead{
+    background: #2c3d4e;
+    color: white;
+    font-weight: bold;
+}
+
+td, th{
+    border: 1px solid black;
+    padding: 10px 15px;
+}
 
 
