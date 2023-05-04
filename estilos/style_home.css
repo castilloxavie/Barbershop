@@ -27,6 +27,7 @@ nav {
     position: absolute;
     top: 110px;
     right: 0; 
+    left: 70%;
 }
 
 nav li {
@@ -226,10 +227,35 @@ form input {
 .imagen_diferencial{
     width: 60%;
     float: right;
-    padding: 0 0 20px 0 ;
+    transition: 400ms;
+    box-shadow: 10px 10px 35px 15px black, -10px -10px 35px;
+}
+
+.imagen_diferencial:hover{
+    opacity: 0.5;
 }
 
 .video{
     width:560px;
+    padding-top:20%;
     margin: 1em auto;
 }
+
+@media(max-width:480px ){
+    h1{
+        text-align: center;
+    }
+
+    nav{
+        position: static;
+    }
+
+    .caja_1, .principal, .mapa_cotenido, .contenido_diferenciales, .video{
+        width: auto;
+    }
+
+    .lista_diferenciales, .imagen_diferencial{
+        width: 100%;
+    }
+    
+} 

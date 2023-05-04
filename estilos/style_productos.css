@@ -8,7 +8,7 @@ header {
     width: 98%;
     position: relative;
     padding: 0;
-    margin: 0 auto;
+    margin: 15px auto;
 }
 
 header img{
@@ -20,6 +20,7 @@ nav {
     position: absolute;
     top: 110px;
     right: 0; 
+    left: 70%;
 }
 
 nav li {
@@ -138,3 +139,31 @@ form input {
     padding: 10px 25px;
     width: 50%;
 }
+
+@media screen and (max-width: 480px) {
+    header {
+        display: block;
+        width: 100%;
+      }
+      header h1 img {
+        width: 80px;
+      }
+      nav {
+        display: block;
+      }
+      ul {
+        display: block;
+        margin: 0;
+        padding: 0;
+      }
+      li {
+        display: block;
+        margin: 5px 0;
+      }
+      .productos li img {
+        width: 100%;
+      }
+      .productos li {
+        margin-bottom: 20px;
+      }
+  }
