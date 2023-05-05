@@ -1,34 +1,33 @@
-/* estilos de la pagina de contactos */
-header { /*activo 11*/
+header { 
     background-color: #2c3d4e;
     padding: 30px 0;
 }
 
-.caja_1{  /*1 activa*/
-    width: 98%;
+.caja_1{  
+    width: 88%;
     position: relative;
     padding: 0;
     margin: 0 auto;
 }
 
-header img{ /*activo 10*/
+header img{ 
     border-radius: 25px;
     opacity: 0.5;
 }
 
-nav { /* avtiva 3*/
+nav { 
     position: absolute;
     top: 110px;
     right: 0; 
     left: 70%;
 }
 
-nav li {/*activa 4*/
+nav li {
     display: inline;
     margin: 0 0 0 15px;
 }
 
-nav a { /*activa 5*/
+nav a {
     text-transform: uppercase;
     color: black;
     font-weight: bold;
@@ -36,90 +35,46 @@ nav a { /*activa 5*/
     text-decoration: none;
 }
 
-.resalto_etiquetas_navegacion:hover{ /*activo 2*/
+.resalto_etiquetas_navegacion:hover{ 
     color: burlywood;
     text-decoration: underline;
 }
 
-#bordes_color_producto:active{
-    border-color: green;
-}
-
-.productos li:hover h2 {
-    font-size: 34px;
-}
-
-.productos h2 {
-    font-size: 30px;
-    font-weight: bold;
-}
-
-#nombre_producto :hover{
-    font-size: 34px;
-}
-
-.descriicion_producto{
-    font-size: 18px;
-}
-
-.producto_precio {
-    font-size: 20px;
-    font-weight: bold;
-    margin-top: 10px;
-
-}
-footer{
-    text-align: center;
-    background: rgba(168, 166, 166, 0.767);
-    padding: 40px;
-}
-
-.Copyrigth{
-    color: white;
-    font-size: 13px;
-    margin: 20px;
-}
-
-.iamgen_footer{
-    border-radius: 600px;
-}
-
-main{
+main{ 
     width: 948px;
     margin: 0 auto;
 }
 
-form{/*activo 7*/
+form{
     margin: 40px 0;
 }
 
-form label, form legend{ /*activo 8*/
+form label, form legend{ 
     display: block;
     font-size: 20px;
     margin: 10px;
 }
 
-
-.input_padron{ /*activo 9*/
+.input_padron{
     display: block;
     margin:0 10px ;
     padding: 10px 25px;
     width: 50%;
 }
 
-.checkbox{
-    margin: 20px 0;
-    padding: 10px;
-}
-
-.seleccinar_opcion{ /*activo 9*/
+.seleccinar_opcion{ 
     display: block;
     margin: 0 10px;
     padding: 10px;
 
 }
 
-.boton_enviar_formulario{
+.checkbox{ 
+    margin: 20px 0;
+    padding: 10px;
+}
+
+.boton_enviar_formulario{ 
     display: block;
     margin: 20px ;
     padding: 15px ;
@@ -138,15 +93,15 @@ form label, form legend{ /*activo 8*/
 .boton_enviar_formulario:hover{
     background: rgb(231, 206, 206);
     transform: scale(1.20) rotate(5deg);
-     
 
 }
 
-table{
+table{ 
     margin: 60px 60px;
     
 }
-thead{
+
+thead{ 
     background: #2c3d4e;
     color: white;
     font-weight: bold;
@@ -156,7 +111,27 @@ td, th{
     border: 1px solid black;
     padding: 10px 15px;
 }
-@media(max-width:480px ){
+
+footer{
+    text-align: center;
+    background: rgba(168, 166, 166, 0.767);
+    padding: 40px;
+}
+
+.Copyrigth{
+    color: white;
+    font-size: 13px;
+    margin: 20px;
+}
+
+.iamgen_footer{ 
+    border-radius: 600px;
+}
+
+
+/*responce*/
+
+@media screen and (max-width:480px) { 
     h1{
         text-align: center;
     }
@@ -165,10 +140,38 @@ td, th{
         position: static;
     }
 
-    .caja_1{
-        width: auto;
+    .inicio {
+        width: 360px;
     }
-} 
+    
+    .input-padron {
+        width: 85%;
+        margin: 0 0 10px;
+        padding: 10px 23px;
+    }
+    
+    form label {
+        margin: 0 0 15px;
+    }
+    
+    select {
+        width: 50%;
+        font-size: 20px;
+        margin: 13px 0;
+    }
+    
+    .boton_enviar_formulario {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        
+    }
+    
+    table {
+        margin: 5% auto;
+    }
+}
 
 
 

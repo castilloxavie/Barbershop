@@ -11,8 +11,8 @@ header {
     padding: 30px 0;
 }
 
-.caja_1{
-    width: 98%;
+.caja_1{ 
+    width: 88%;
     position: relative;
     padding: 0;
     margin: 0 auto;
@@ -43,101 +43,9 @@ nav a {
     text-decoration: none;
 }
 
-.resalto_etiquetas_navegacion:hover{
+.resalto_etiquetas_navegacion:hover{/*9*/
     color: burlywood;
     text-decoration: underline;
-}
-
-.productos {
-    width: 98%;
-    margin: 0, auto;
-    padding: 50px;
-}
-
-.productos li{
-    display: inline-block;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    width: 30%;
-    vertical-align: top;
-    margin: 0 1.5%;
-    padding: 30px 20px;
-    box-sizing: border-box;
-    justify-content: center;
-    flex-wrap: wrap;
-    border: 3px solid black;
-    border-radius: 20px;
-}
-
-#bordes_color_producto:hover{
-    border-color: burlywood;
-}
-
-#bordes_color_producto:active{
-    border-color: green;
-}
-
-.productos li:hover h2 {
-    font-size: 34px;
-}
-
-.productos h2 {
-    font-size: 30px;
-    font-weight: bold;
-}
-
-#nombre_producto :hover{
-    font-size: 34px;
-}
-
-.descriicion_producto{
-    font-size: 18px;
-}
-
-.producto_precio {
-    font-size: 20px;
-    font-weight: bold;
-    margin-top: 10px;
-
-}
-footer{
-    text-align: center;
-    background: rgba(168, 166, 166, 0.767);
-    padding: 40px;
-}
-
-.Copyrigth{
-    color: white;
-    font-size: 13px;
-    margin: 20px;
-}
-
-.iamgen_footer{
-    border-radius: 600px;
-}
-
-form{
-    margin: 40px 0;
-}
-
-form label{
-    display: block;
-    font-size: 20px;
-    margin: 10px;
-}
-form input {
-    display: block;
-    margin:0 20px ;
-    padding: 10px 25px;
-    width: 50%;
-}
-
-.boton_enviar_formulario{
-    display: block;
-    margin: 20px ;
-    padding: 10px 25px;
-    width: 50%;
 }
 
 .banner{
@@ -159,10 +67,6 @@ form input {
     background: #fefefe;
     width: 948px;
     margin: 0 auto;
-}
-.principal p{
-    margin: 0 0 1em;
-
 }
 
 .principal strong {
@@ -239,6 +143,22 @@ form input {
     width:560px;
     padding-top:20%;
     margin: 1em auto;
+}
+
+footer{
+    text-align: center;
+    background: rgba(168, 166, 166, 0.767);
+    padding: 40px;
+}
+
+.Copyrigth{
+    color: white;
+    font-size: 13px;
+    margin: 20px;
+}
+
+.iamgen_footer{
+    border-radius: 600px;
 }
 
 @media(max-width:480px ){
