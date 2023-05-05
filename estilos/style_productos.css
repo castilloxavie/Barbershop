@@ -120,21 +120,24 @@ main{/*18*/
     nav{
         position: static;
     }
-    
-    .iamgen_footer{
-        width: 100%;
+
+    main{
+        width: auto;
     }
-     
+
     .productos{
         display: block;
         padding: 10px;
         width: 100%;
-        
     }
 
     .productos li {
-        display: block;
+        display: inline-table;
         margin: 10px;
+    }
+
+    .iamgen_footer{
+        width: 100%;
     }
 
     
